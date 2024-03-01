@@ -4,7 +4,8 @@ import styles from '../styles/StyleSheet';
 
 const LoginInput2 = ({ placeholder, value, onChangeText, secureTextEntry }) => {
   return (
-    <View>
+  //  Campo de digitação para Usuario e Senha
+   <View>
       <TextInput
         style={styles.input}
         placeholder={placeholder}
