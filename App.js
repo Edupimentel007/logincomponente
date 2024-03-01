@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import Login from './src/pages/Login';
+import styles from './src/styles/StyleSheet';
 
 const App = () => {
   return (

@@ -5,8 +5,9 @@ import LoginImage from '../componentes/LoginImage';
 import LoginImageBackground from '../componentes/LoginImageBackground';
 import LoginText from '../componentes/LoginText';
 import LoginInput2 from '../componentes/LoginInput';
+import styles from '../styles/StyleSheet';
 
-const LoginInput = () => {
+const Login = () => {
   return (
     <LoginImageBackground source={{ uri: 'https://static.poder360.com.br/2022/11/pele-3.jpeg' }} style={styles.backgroundImage}>
       <View style={styles.container}>
